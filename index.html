@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container"> 
+        <hi id="main-title">LETS PLAY!</hi>
+        <div id="scoreboard">
+            <h2>HUMAN - COMPUTER</h2>
+            <div id="theScore">
+                <div id="humanside">
+                    <h3 id="humanscore">0</h3>
+                </div>
+                <div id="botside">
+                    <h3 id="botscore">0</h3> 
+                </div>
+            </div>
 
+        </div>
+        <div id="battleground">
+            <div id="human">🧑</div>
+            <div id="computer">🤖</div>
+        </div>
+        <div id="humanOptions">
+            <button id="rock" name="humanButton" value="0">Rock</button>
+            <button id="paper" name="humanButton" value="1">Paper</button>
+            <button id="scissor" name="humanButton" value="2">Scissor</button>
+        </div>
+        <p id="footer">Choose your weapon</p>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
